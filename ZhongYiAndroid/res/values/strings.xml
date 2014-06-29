@@ -9,6 +9,10 @@
     <string name="tab_early_education">精选品牌</string>
     <string name="tab_information">店铺位置</string>
     <string name="tab_baby">我的</string>
+    <string name="my_bonus">我的积分</string>
+    <string name="my_order">我的预约</string>
+    <string name="version_update">版本更新</string>
+    <string name="about_us">关于我们</string>
     
     
     <string name="xlistview_header_hint_normal">下拉刷新</string>

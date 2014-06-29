@@ -24,6 +24,7 @@ import com.zy.zhongyiandroid.R.id;
 import com.zy.zhongyiandroid.R.layout;
 import com.zy.zhongyiandroid.ui.fragment.BaseFragment;
 import com.zy.zhongyiandroid.ui.fragment.InfoFragment;
+import com.zy.zhongyiandroid.ui.fragment.SettingFragment;
 import com.zy.zhongyiandroid.ui.widget.MyRadioGroup;
 
 public class MainActivity extends FragmentActivity implements MyRadioGroup.OnCheckedChangeListener {
@@ -139,7 +140,7 @@ public class MainActivity extends FragmentActivity implements MyRadioGroup.OnChe
 				newFragment = new InfoFragment();
 				break;
 			case R.id.rboBaby:
-				newFragment = new InfoFragment();
+				newFragment = new SettingFragment();
 				break;
 			}
 		}

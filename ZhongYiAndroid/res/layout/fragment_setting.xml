@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+    <com.zy.zhongyiandroid.ui.widget.Header
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >	        	       	
+	        <LinearLayout
+	            style="@style/user_item_style"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+	
+	            <RelativeLayout
+	       			android:id="@+id/myOrder"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_up_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgMyDownload"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview"
+	                    android:background="@drawable/icon_baby_photos" />
+	
+	                <TextView
+	                    android:id="@+id/textView"
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgMyDownload"
+	                    android:text="我的预约" />
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	
+	              
+	            </RelativeLayout>
+	
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/color_e6dfd5" />
+	
+	           <!--  <RelativeLayout
+	                android:id="@+id/reRecenPlay"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_center_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgMyPlay"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview"
+	                    android:background="@drawable/icon_baby_friend"/>
+	
+	                <TextView
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgMyPlay"
+	                    android:text="宝宝新朋友" />
+	
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	            </RelativeLayout> 
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/color_e6dfd5" />-->
+	
+	            <RelativeLayout
+	                android:id="@+id/myBonus"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_down_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgBaike"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview"
+	                    android:background="@drawable/icon_baby_know"
+	                   />
+	
+	                <TextView
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgBaike"
+	                    android:text="我的积分" />
+	
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	            </RelativeLayout>
+	            
+	        </LinearLayout>
+	        <LinearLayout
+	            style="@style/user_item_style"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" >
+	
+	            <RelativeLayout
+	            	android:id="@+id/Update"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_up_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgMyDownload"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview"
+	                    android:background="@drawable/icon_baby_store" />
+	
+	                <TextView
+	                    android:id="@+id/textView"
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgMyDownload"
+	                    android:text="版本更新 " />
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	
+	              
+	            </RelativeLayout>
+	
+	            <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/color_e6dfd5" />
+	
+	            <RelativeLayout
+	                android:id="@+id/MyIntroduce"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_down_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgDownload"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview" 
+	                    android:background="@drawable/icon_baby_down"/>
+	
+	                <TextView
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgDownload"
+	                    android:text="关于我们" />
+	
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	            </RelativeLayout>
+	           <!--  <ImageView
+	                android:layout_width="match_parent"
+	                android:layout_height="1px"
+	                android:background="@color/color_e6dfd5" />
+	
+	            <RelativeLayout
+	                android:id="@+id/reMyCard"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:background="@drawable/btn_baby_item_down_selector"
+	                >
+	
+	                <ImageView
+	                    android:id="@+id/imgMyCard"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    style="@style/user_icon_textview"
+	                    android:background="@drawable/icon_baby_timeline"
+	                   />
+	
+	                <TextView
+	                    style="@style/user_textview"
+	                    android:layout_toRightOf="@id/imgMyCard"
+	                    android:text="朋友圈" />
+	
+	                <ImageView
+	                    style="@style/user_imageview"
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content" />
+	            </RelativeLayout> -->
+	            
+	        </LinearLayout>
+
+	    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

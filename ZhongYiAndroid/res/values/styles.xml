@@ -58,10 +58,10 @@
 	    <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item> 
 	</style>
-    <style name="Theme.PageIndicatorDefaults" parent="AppTheme">
+    <!-- style name="Theme.PageIndicatorDefaults" parent="AppTheme">
         <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
         <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
-    </style>
+    </style> -->
     
     <style name="Theme.Transparent2" parent="AppBaseTheme">  
        <item name="android:windowBackground">@android:color/transparent</item>  
@@ -110,7 +110,7 @@
         <item name="android:background">@drawable/tab_bg_selector</item>
         <item name="android:paddingBottom">@dimen/tab_padding</item>
         <item name="android:paddingTop">@dimen/tab_padding</item>
-        <item name="android:paddingBottom">@dimen/tab_padding</item>
+
     </style>
     
 	<!-- 从上到一的动画 -->
@@ -136,6 +136,17 @@
         <item name="android:windowIsTranslucent">false</item>
         <item name="android:backgroundDimEnabled">true</item>
         <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+        <style name="user_imageview">
+        <item name="android:background">@drawable/goto_point</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <style name="user_icon_textview">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+
     </style>
  
 
