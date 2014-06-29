@@ -4,7 +4,7 @@ import android.os.Environment;
 
 
 public class Constant {
-	//状态栏通知
+	//状态栏通知testtt
 	public static class NotificationId{
 		public static final int PLAYER = 1;
 		public static final int UPDATE = 2;
